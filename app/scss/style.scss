@@ -1,0 +1,30 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.fuck{
+
+	display: flex;
+	align-items: center;
+	&::after,
+	&::before{
+		content: '';
+		height: 2px;
+		background-color: green;
+		width: 100%;
+	}
+	&::after{
+		margin-left: 20px;
+	}
+	&::before{
+		margin-right: 20px;
+	}
+}
+
+
+
+
+
+
+@import "media";
